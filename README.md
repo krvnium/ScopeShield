@@ -55,9 +55,9 @@ streamlit run app.py
 
 ## 📖 How to Use
 ``
-    Set your Hourly Rate in the sidebar
-    Upload a signed contract/SOW PDF (or click Load Sample Contract to test it instantly).
-    Paste the client's newest WhatsApp/email request into the main text box.
-    Click Audit Scope.
-    Review the verdict (🔴 Scope Creep, 🟡 Ambiguous, 🟢 In Scope), adjust the estimated hours slider if needed,      and copy the generated diplomatic reply.
-    Click Confirm & Log Change Order to save the revenue to your local database ledger.
+1. Set your Hourly Rate in the sidebar 
+2. Upload a signed contract/SOW PDF (or click Load Sample Contract to test it instantly).
+3. Paste the client's newest WhatsApp/email request into the main text box.
+4. Click Audit Scope.
+5. Review the verdict (🔴 Scope Creep, 🟡 Ambiguous, 🟢 In Scope), adjust the estimated hours slider if needed,      and copy the generated diplomatic reply.
+6. Click Confirm & Log Change Order to save the revenue to your local database ledger.
