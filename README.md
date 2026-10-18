@@ -33,3 +33,31 @@ It uses local document parsing and an open-weights AI model to cross-reference n
 ```bash
 git clone [https://github.com/your-username/scopeshield.git](https://github.com/your-username/scopeshield.git)
 cd scopeshield
+```
+**2. Install dependencies**
+```Bash
+
+pip install -r requirements.txt
+```
+
+**3. Add your API Key**
+ScopeShield requires a free Gemini API key to access the Gemma open-weight models. Create a .env file in the root directory and add your key:
+Code snippet
+```bash
+GEMINI_API_KEY=your_api_key_here
+```
+
+**4. Run the application**
+Bash
+```
+streamlit run app.py
+```
+
+## 📖 How to Use
+``
+    Set your Hourly Rate in the sidebar
+    Upload a signed contract/SOW PDF (or click Load Sample Contract to test it instantly).
+    Paste the client's newest WhatsApp/email request into the main text box.
+    Click Audit Scope.
+    Review the verdict (🔴 Scope Creep, 🟡 Ambiguous, 🟢 In Scope), adjust the estimated hours slider if needed,      and copy the generated diplomatic reply.
+    Click Confirm & Log Change Order to save the revenue to your local database ledger.
