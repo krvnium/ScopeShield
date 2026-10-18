@@ -1,0 +1,9 @@
+.env
+*.db
+__pycache__/
+*.py[cod]
+.streamlit/
+.venv/
+venv/
+*.sqlite
+*.sqlite3
